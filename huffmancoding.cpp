@@ -128,6 +128,7 @@ int main()
 
 	// printing original msg
 	cout << "\nOriginal string was :\n" << msg << '\n';
+    cout << "size of original string in binary is : " <<msg.size()*8 ;
 
 	// creating encoded msg
 	string encoded_msg = "";
@@ -136,6 +137,7 @@ int main()
 	}
     // printing encode msg
 	cout << "\nEncoded string is :\n" << encoded_msg << '\n';
+    cout << "size of original string in binary is : " <<encoded_msg.size();
 
 
     // decoding msg
